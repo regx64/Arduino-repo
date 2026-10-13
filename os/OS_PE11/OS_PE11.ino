@@ -9,7 +9,7 @@
  *  수신 순서가 [위쪽 → 왼쪽] 으로 고정되므로 폴링 불필요.
  *
  *  핀
- *    D2 CLK_L / D4 DAT_L  ←  PE(1,0) D3 / D5
+ *    D2 CLK_L / D4 DAT_L  ←  PE(1,0) D2 / D4
  *    D3 CLK_T / D5 DAT_T  ←  PE(0,1) D3 / D5
  *    D6 TRIG              ←  PE(0,0) D6
  *    A4 SDA / A5 SCL      →  I2C LCD
